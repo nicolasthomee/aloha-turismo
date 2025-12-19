@@ -1,12 +1,12 @@
 export const trips = [
   {
-    slug: 'rio-de-janeiro-carnaval',
+    slug: 'rio-de-janeiro',
     destination: 'Rio de Janeiro',
     date: '21 a 25 de fevereiro',
     description:
       'Experiência completa no Rio com traslado rodoviário confortável e curadoria do parceiro para blocos e pontos turísticos.',
     cover:
-      'src/assets/rio-de-janeiro.jpg',
+      './public/images/rio-de-janeiro.jpg',
     gallery: [
       'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80',
@@ -21,7 +21,7 @@ export const trips = [
     isNew: true,
   },
   {
-    slug: 'foz-do-iguacu-natureza',
+    slug: 'aparecida-do-norte',
     destination: 'Aparecida',
     date: 'Saídas mensais',
     description:
@@ -48,7 +48,7 @@ export const trips = [
     description:
       'Natal Luz, vinícolas e passeios charmosos. O parceiro cuida do roteiro enquanto a Aloha garante viagens confortáveis.',
     cover:
-      'src/assets/gramado.jpg',
+      '/images/gramado.jpg',
     gallery: [
       'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',

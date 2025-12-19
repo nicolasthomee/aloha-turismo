@@ -43,7 +43,7 @@ export function Home() {
           </div>
           <div className="hero-card">
             <img
-              src="src/assets/fronteira.jpg"
+              src="images/fronteira.jpg"
               alt="Ônibus Aloha Turismo em viagem"
             />
             <div className="hero-overlay">
