@@ -8,7 +8,7 @@ export function Header() {
   return (
     <header className="topbar">
       <div className="container topbar-inner">
-        <Link to="/" className="brand">
+        <Link to="/" className="brand hidden md:block">
           <img 
             src={logoAloha}
             alt="Aloha Turismo"
@@ -31,7 +31,7 @@ export function Header() {
           </NavLink>
         </nav>
         <a
-          className="pill-button"
+          className="pill-button hidden md:inline-flex"
           href="https://wa.me/5547999999999?text=Quero+um+or%C3%A7amento+de+transporte"
           target="_blank"
           rel="noreferrer"
