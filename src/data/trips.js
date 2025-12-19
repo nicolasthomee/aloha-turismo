@@ -6,7 +6,7 @@ export const trips = [
     description:
       'Experiência completa no Rio com traslado rodoviário confortável e curadoria do parceiro para blocos e pontos turísticos.',
     cover:
-      './public/images/rio-de-janeiro.jpg',
+      'images/rio-de-janeiro.jpg',
     gallery: [
       'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80',
